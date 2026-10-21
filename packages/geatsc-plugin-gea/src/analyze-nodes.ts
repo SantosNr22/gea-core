@@ -8,7 +8,7 @@ export const videoNodeAnalysisVersion = 'node-video-analysis-v1'
 const nodeFreeCoreExports = new RegExp('^(?:' + [
   'Component', 'ReactiveComponent', 'Store', 'mount', 'Display', 'rgb', 'rgba',
   'touch', 'Input', 'Accelerometer', 'Magnetometer', 'Geolocation', 'geolocation', 'Clock', 'Battery', 'Memory', 'Profiler',
-  'WiFi', 'wifi', 'BLE', 'bluetooth', 'BLEServer', 'registerBleServer', 'initBleServers', 'EspNow', 'Uart', 'Gpio', 'Led', 'Haptics', 'Notify', 'DeviceControl',
+  'WiFi', 'wifi', 'BLE', 'bluetooth', 'BLEServer', 'registerBleServer', 'initBleServers', 'EspNow', 'Uart', 'Gpio', 'Digital', 'Buttons', 'Led', 'Haptics', 'Notify', 'DeviceControl',
   'Audio', 'audioContext', 'flushAudioWorkletOutput',
   'writeCacheFile', 'readCacheFile', 'removeCacheFile', 'listCacheFiles', 'readFileRange', 'readMapArchive',
   'http', 'fetchBytes', 'fetchText', 'fetchAsync', 'fetchReady', 'fetchResult', 'fetchRelease',
